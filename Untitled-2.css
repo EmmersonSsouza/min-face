@@ -1,0 +1,146 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  /* Barra de Navegação */
+  .navbar {
+    background-color: #4267b2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .user-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  /* Container Principal */
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  
+  /* Card de Criar Postagem */
+  .create-post {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-post .user-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .create-post .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .create-post textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    min-height: 80px;
+  }
+  
+  .create-post button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .create-post button:hover {
+    background-color: #365899;
+  }
+  
+  /* Postagens no Feed */
+  .feed .post {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feed .post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .feed .post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .feed .post-header .user-name {
+    font-weight: bold;
+  }
+  
+  .feed .post-header .post-time {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .feed .post-content {
+    margin: 10px 0;
+  }
+  
+  .feed .post-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .feed .post-actions button {
+    background-color: #f0f2f5;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feed .post-actions button:hover {
+    background-color: #ddd;
+  }
+  

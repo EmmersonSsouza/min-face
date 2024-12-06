@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Facebook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Barra de Navegação -->
+  <nav class="navbar">
+    <div class="logo">MiniFacebook</div>
+    <div class="user-menu">
+      <span class="user-name">Olá, Usuário</span>
+      <img src="https://via.placeholder.com/40" alt="Foto do perfil" class="user-avatar">
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <div class="container">
+    <!-- Card de Criar Postagem -->
+    <div class="create-post">
+      <div class="user-info">
+        <img src="https://via.placeholder.com/50" alt="Foto do perfil" class="user-avatar">
+        <form id="postForm">
+          <textarea id="postInput" placeholder="O que você está pensando?" required></textarea>
+          <button type="submit">Publicar</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Feed de Postagens -->
+    <div class="feed" id="postsContainer">
+      <!-- As postagens serão inseridas dinamicamente aqui -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
